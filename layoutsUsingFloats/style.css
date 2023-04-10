@@ -1,0 +1,20 @@
+
+/*To tell the browser to ignore the borders*/
+* {
+    box-sizing: border-box;
+}
+
+/*sections with 33% width and floating*/
+section {
+    height: 300px;
+    float: left;
+    width: 33.33%;
+    border: 3px solid black;
+}
+
+/*clear tells the header and footer to go down if something above is floating */
+.header, footer {
+    border: 3px solid black;
+    height: 100px;
+    clear: both;
+}
