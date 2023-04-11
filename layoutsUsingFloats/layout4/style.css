@@ -1,0 +1,28 @@
+/* to ignore the borders */
+
+* {
+    box-sizing: border-box;
+}
+
+/* normal header and footer  */
+header, footer {
+    border: 2px solid black;
+    height: 100px;
+    clear: both;
+}
+
+/* square shaped section in the middle */
+.square-section {
+    border: 2px solid black;
+    height: 550px;
+    width: 40%;
+    float: left;
+}
+
+/* rectangle shaped section */
+.rect-section {
+    border: 2px solid black;
+    height: 550px;
+    width: 20%;
+    float: left;
+}
