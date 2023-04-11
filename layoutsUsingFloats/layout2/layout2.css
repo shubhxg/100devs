@@ -1,0 +1,26 @@
+/* to ignore the borders while calculating the size*/
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    border: 2px solid black;
+    height: 100px;
+    clear: both;
+}
+
+/*3 sections each of 33% under the header*/
+section.upper {
+    border: 1px solid black;
+    height: 200px;
+    width: 33.33%;
+    float: left;
+}
+
+/*2 sections each of 50% under the upper section*/
+section.lower {
+    border: 1px solid black;
+    height: 300px;
+    width: 50%;
+    float: left;
+}
