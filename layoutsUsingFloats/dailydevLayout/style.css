@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+#dailydev-logo {
+    margin-top: 13px;
+    margin-left: 8px;
+    width: 7.9%;
+}
+header {
+    border-bottom: 1px solid rgb(45, 50, 59);
+    background-color: rgb(14, 18, 23);
+    height: 56px;
+    clear: both;
+}
+
+.nav-bar {
+    background-color: rgb(14, 18, 23);
+    border-right: 1px solid rgb(45, 50, 59);
+    height: 710px;
+    width: 16%;
+    float: left;
+}
+
+.main{
+    background-color: rgb(14, 18, 23);
+    border: 1px solid rgb(14, 18, 23);
+    height: 710px;
+    width: 84%;
+    float: left;
+}
