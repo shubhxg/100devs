@@ -1,0 +1,19 @@
+/* to ignore the borders while calculating the size*/
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    border: 2px solid black;
+    height: 100px;
+}
+
+.main, .bottom {
+    display: flex;
+}
+
+section {
+    height: 200px;
+    border: 1px solid black;
+    flex: 1;
+}
