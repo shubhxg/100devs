@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family:'Noto Sans', sans-serif;
+  letter-spacing: -1px;
+  margin: 0px;
+  line-height: 1.1;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* flex class  */
+.flex-container {
+  display: flex;
+  justify-content: start;
+}
+
+li a{
+  color: rgb(107, 107, 107);
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.techcrunch a {
+  font-weight: 900;
+  color: rgb(255, 183, 0);
+}
+
+ul .login, .login a{
+  color: rgb(113, 113, 113);
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+li {
+  list-style-type: none;
+  padding: 6px 0px;
+}
+
+.navbar {
+  font-size: 1.26rem;
+  width: 240px;
+  padding: 30px 30px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+.logo{
+  padding-bottom: 10px;
+}
+
+.search {
+  padding-bottom: 10px;
+}
+
+.main-left {
+  width: 600px;
+  padding: 20px 10px;
+}
+
+.main-right {
+  width: 320px;
+}
+.main-right article h2 {
+  padding-top: 5px;
+  font-weight: 900;
+  font-size: 1.35rem;
+  width: 350px;
+}
+
+.span-mini-view {
+  font-weight: 400;
+  color: rgb(36, 216, 36);
+}
+
+.mini-view {
+  padding-top: 15px;
+}
+
+.mini-view p{
+  color: rgb(35, 35, 35);
+  font-weight: 500;
+  padding: 10px 0px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  width: 80%;
+  background-color: rgb(224, 224, 224);
+}
+
+.main-twitter-img {
+  padding: 10px 0px;
+}
+
+span {
+  font-weight: 500;
+}
+
+aside {
+  margin-top: 12px;
+  border: 2px solid rgb(36, 216, 36);
+  width: 300px;
+  height: 120px;
+}
+
+aside hr {
+  margin-top: 20px;
+  background-color: rgb(36, 216, 36);
+  height: 1.5px;
+  width: 100%;
+}
+
+aside .event {
+  padding: 15px 0px 0px 10px;
+}
+
+.event h3 {
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: rgb(36, 216, 36);
+}
+
+.event p {
+  color: rgb(107, 107, 107);
+  font-size: 0.95rem;
+  padding-left: 40px;
+  line-height: 1.5;
+}
+
+aside h4 {
+  font-weight: 900;
+  padding: 8px 0px;
+  text-align: center;
+}
