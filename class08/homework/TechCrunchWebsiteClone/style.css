@@ -2,7 +2,7 @@
 
 * {
   scroll-behavior: smooth;
-  font-family:'Noto Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   letter-spacing: -1px;
   color: black;
   margin: 0px;
@@ -14,6 +14,11 @@
 }
 
 /* flex classes */
+
+.flex {
+  display: flex;
+}
+
 .flex-container-start {
   display: flex;
   justify-content: start;
@@ -34,7 +39,8 @@ li a {
   color: rgb(255, 183, 0);
 }
 
-ul .login, .login a {
+ul .login,
+.login a {
   font-weight: 400;
   padding-bottom: 40px;
 }
@@ -48,6 +54,7 @@ li {
   z-index: 49;
   font-size: 1.26rem;
   width: 240px;
+  height: 100%;
   padding: 30px 30px;
 }
 
@@ -74,6 +81,7 @@ h1 {
 .main-right {
   width: 320px;
 }
+
 .main-right article h2 {
   padding-top: 4px;
   font-weight: 900;
@@ -150,7 +158,7 @@ aside h4 {
 .section-latest {
   width: 900px;
   margin: 20px 250px;
-  height: 1000px;
+  height: fit-content;
 }
 
 .color-grey {
@@ -191,7 +199,7 @@ aside h4 {
   font-weight: 700;
 }
 
-.latest-heading-wrapper p + span {
+.latest-heading-wrapper p+span {
   color: rgb(103, 103, 103);
   font-weight: 300;
 }
@@ -211,8 +219,64 @@ aside h4 {
 }
 
 .gradient-text {
-  background-image: linear-gradient(to right, #2cda2c, #129612 );
+  background-image: linear-gradient(to right, #2cda2c, #129612);
   background-clip: text;
-  -webkit-background-clip: text; /* For Safari/Chrome */
+  -webkit-background-clip: text;
+  /* For Safari/Chrome */
   color: transparent;
+}
+
+footer {
+  width: fit-content;
+  height: fit-content;
+
+  margin-left: 250px;
+
+
+  flex-direction: row;
+
+  margin-bottom: 10px;
+
+}
+
+footer hr{
+  width: 1150px;
+}
+
+#links {
+  margin-top: 25px;
+}
+
+#site_links {
+  margin-right: 100px;
+}
+
+#site_links>div {
+  font-size: 17px;
+  margin-right: 55px;
+
+  line-height: 25.2px;
+  letter-spacing: 0px;
+  
+}
+
+#social_links div li {
+  margin-right: 35px;
+}
+
+#social_links div li a span {
+  font-size: 18px;
+  color: rgb(130, 130, 130);
+  font-weight: 400;
+  align-items: start;
+  
+  line-height: 25.2px;
+  letter-spacing: 0px;
+
+  margin: 0px 15px;
+}
+
+footer>div+div {
+  margin: 30px 0;
+  color: rgb(107, 107, 107);
 }
