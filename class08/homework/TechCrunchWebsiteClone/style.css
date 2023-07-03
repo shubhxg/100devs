@@ -24,7 +24,7 @@
   justify-content: space-between;
 }
 
-li a{
+li a {
   color: rgb(107, 107, 107);
   font-weight: 300;
 }
@@ -34,7 +34,7 @@ li a{
   color: rgb(255, 183, 0);
 }
 
-ul .login, .login a{
+ul .login, .login a {
   font-weight: 400;
   padding-bottom: 40px;
 }
@@ -57,7 +57,7 @@ h1 {
   padding-bottom: 10px;
 }
 
-.logo{
+.logo {
   padding-bottom: 10px;
 }
 
@@ -90,7 +90,7 @@ h1 {
   padding-top: 15px;
 }
 
-.mini-view p{
+.mini-view p {
   color: rgb(35, 35, 35);
   font-weight: 500;
   padding: 10px 0px;
@@ -185,7 +185,7 @@ aside h4 {
   height: 150px;
 }
 
-.latest-heading-wrapper p{
+.latest-heading-wrapper p {
   padding: 10px 0px;
   font-size: 0.9rem;
   font-weight: 700;
