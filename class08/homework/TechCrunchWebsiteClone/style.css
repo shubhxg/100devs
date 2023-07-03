@@ -1,24 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700;800;900&display=swap');
 
 * {
+  scroll-behavior: smooth;
   font-family:'Noto Sans', sans-serif;
   letter-spacing: -1px;
+  color: black;
   margin: 0px;
+  list-style-type: none;
   line-height: 1.1;
   padding: 0px;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
-/* flex class  */
-.flex-container {
+/* flex classes */
+.flex-container-start {
   display: flex;
   justify-content: start;
+}
+
+.flex-container-sb {
+  display: flex;
+  justify-content: space-between;
 }
 
 li a{
   color: rgb(107, 107, 107);
   font-weight: 300;
-  text-decoration: none;
 }
 
 .techcrunch a {
@@ -27,17 +35,17 @@ li a{
 }
 
 ul .login, .login a{
-  color: rgb(113, 113, 113);
   font-weight: 400;
   padding-bottom: 40px;
 }
 
 li {
-  list-style-type: none;
   padding: 6px 0px;
 }
 
 .navbar {
+  position: fixed;
+  z-index: 49;
   font-size: 1.26rem;
   width: 240px;
   padding: 30px 30px;
@@ -58,7 +66,8 @@ h1 {
 }
 
 .main-left {
-  width: 600px;
+  margin-left: 260px;
+  width: 590px;
   padding: 20px 10px;
 }
 
@@ -66,7 +75,7 @@ h1 {
   width: 320px;
 }
 .main-right article h2 {
-  padding-top: 5px;
+  padding-top: 4px;
   font-weight: 900;
   font-size: 1.35rem;
   width: 350px;
@@ -89,8 +98,8 @@ h1 {
 
 hr {
   border: none;
-  height: 1px;
-  width: 80%;
+  height: 0.5px;
+  width: 90%;
   background-color: rgb(224, 224, 224);
 }
 
@@ -104,8 +113,8 @@ span {
 
 aside {
   margin-top: 12px;
-  border: 2px solid rgb(36, 216, 36);
-  width: 300px;
+  border: 2px solid rgb(24, 184, 24);
+  width: 290px;
   height: 120px;
 }
 
@@ -127,7 +136,6 @@ aside .event {
 }
 
 .event p {
-  color: rgb(107, 107, 107);
   font-size: 0.95rem;
   padding-left: 40px;
   line-height: 1.5;
@@ -137,4 +145,74 @@ aside h4 {
   font-weight: 900;
   padding: 8px 0px;
   text-align: center;
+}
+
+.section-latest {
+  width: 900px;
+  margin: 20px 250px;
+  height: 1000px;
+}
+
+.color-grey {
+  color: rgb(141, 141, 141);
+}
+
+.section-latest h4 {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  padding-bottom: 25px;
+}
+
+.section-latest h2 {
+  padding-top: 4px;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.container-latest {
+  padding: 25px 0px;
+}
+
+.container-latest p {
+  font-size: 1rem;
+  color: rgb(112, 112, 112);
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+}
+
+.container-latest img {
+  width: 280px;
+  height: 150px;
+}
+
+.latest-heading-wrapper p{
+  padding: 10px 0px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.latest-heading-wrapper p + span {
+  color: rgb(103, 103, 103);
+  font-weight: 300;
+}
+
+.section-latest hr {
+  width: 900px;
+}
+
+.load-more {
+  width: 100%;
+}
+
+.load-more h4 {
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right, #2cda2c, #129612 );
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari/Chrome */
+  color: transparent;
 }
