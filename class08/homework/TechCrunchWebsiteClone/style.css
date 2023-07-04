@@ -229,42 +229,34 @@ aside h4 {
 footer {
   width: fit-content;
   height: fit-content;
-
-  margin-left: 250px;
-
-
-  flex-direction: row;
-
+  margin: 0px 250px;
   margin-bottom: 10px;
-
 }
 
 footer hr{
-  width: 1150px;
+  width: 1260px;
 }
 
 #links {
   margin-top: 25px;
 }
 
-#site_links {
+#site-links {
   margin-right: 100px;
 }
 
-#site_links>div {
+#site-links > div {
   font-size: 17px;
   margin-right: 55px;
-
   line-height: 25.2px;
   letter-spacing: 0px;
-  
 }
 
-#social_links div li {
+#social-links div li {
   margin-right: 35px;
 }
 
-#social_links div li a span {
+#social-links div li a span {
   font-size: 18px;
   color: rgb(130, 130, 130);
   font-weight: 400;
