@@ -8,9 +8,20 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/* flex class */
 .flex {
   display: flex;
   justify-content: space-between;
+}
+
+.flex-c {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-se {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 body {
@@ -24,12 +35,8 @@ body {
 }
 
 nav {
-  padding: 10px 30px;
+  padding: 15px 30px;
   height: 3rem;
-}
-
-.red-b {
-  border: 1px solid red;
 }
 
 ul {
@@ -44,7 +51,7 @@ li a {
   font-weight: 600;
 }
 
-button {
+.btn {
   margin-top: -0.12rem;
   padding-bottom: 0.1rem;
   font-size: 0.8rem;
@@ -52,5 +59,111 @@ button {
   color: white;
   background-color: rgb(48, 70, 89);
   width: 70px;
-  height: 28px;
+  height: 30px;
+}
+
+.hero-div {
+  padding: 80px 0px;
+}
+
+.heading-wrapper {
+  width: 800px;
+  padding: 90px 150px 0px 150px;
+}
+
+span {
+  color:rgb(78, 89, 99);
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+h1 {
+  padding: 10px 0px 20px 0px;
+  font-size: 2.3rem;
+  letter-spacing: -1px;
+  line-height: 1.1;
+}
+
+input{
+  width: 260px;
+  height: 30px;
+  border: none;
+  background-color: rgb(225, 233, 240);
+}
+
+input::placeholder {
+  padding: 0px 10px 0 10px;
+  font-size: 0.69rem;
+  color: rgb(119, 136, 151);
+}
+
+p{
+  padding: 16px 0px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(105, 119, 132);
+}
+
+.img-wrapper img{
+  width: 690px;
+}
+
+.icons {
+  width: 40px;
+  padding-bottom: 10px ;
+}
+
+.feat-wrapper {
+  padding: 40px;
+}
+
+h3 {
+  font-size:1.2rem;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 8px;
+  background-color: rgb(240, 248, 255);
+}
+
+.card:hover {
+  background-color: rgb(217, 228, 239);
+}
+
+.btn:hover {
+  background-color: rgb(167, 200, 229);
+}
+
+.span-feat{
+  font-size:0.9rem;
+  font-weight: 700;
+}
+
+.arrow-feat {
+  width: 15px;
+  padding-left: 5px;
+}
+
+.sect-secondary {
+  background-color: white;
+}
+
+h2 {
+  font-size: 2.1rem;
+}
+
+.secondary-wrapper {
+  padding: 100px 0px 4px 150px;
+}
+
+.light-color{
+  color:  rgb(152, 170, 186);
+  padding-bottom: 30px;
+}
+
+.secondary-container > div{
+  background-color: rgb(218, 228, 236);
+  width: 1225px;
+  height: 40px;
 }
