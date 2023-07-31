@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
 * {
   scroll-behavior: smooth;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* flex class */
@@ -75,11 +75,11 @@ li a {
 }
 
 .heading-wrapper {
-  padding: 5.625rem 9.375rem 0rem 9.375rem;
+  padding: 5.625rem 0rem 0rem 8%;
 }
 
 span {
-  color:rgb(135, 153, 170);
+  color: rgb(135, 153, 170);
   font-size: 0.7rem;
   font-weight: 600;
 }
@@ -91,7 +91,7 @@ h1 {
   line-height: 1.1;
 }
 
-input{
+input {
   width: 16.25rem;
   height: 2rem;
   border: none;
@@ -112,8 +112,8 @@ p {
   color: rgb(105, 119, 132);
 }
 
-.img-wrapper img{
-  width: 100%;
+.img-wrapper img {
+  width: 45vw;
 }
 
 .icons {
@@ -147,7 +147,7 @@ h3 {
   background-color: rgb(167, 200, 229);
 }
 
-.span-feat{
+.span-feat {
   font-size: 0.9rem;
   font-weight: 700;
   color: rgb(48, 70, 89);
@@ -160,7 +160,7 @@ h3 {
 
 .section-secondary {
   background-color: white;
-  width:100%;
+  width: 100%;
 }
 
 h2 {
@@ -176,12 +176,12 @@ h2 + p {
   padding: 5% 5% 1% 10%;
 }
 
-.light-color{
-  color:  rgb(152, 170, 186);
+.light-color {
+  color: rgb(152, 170, 186);
   padding-bottom: 2rem;
 }
 
-.footer-container > div{
+.footer-container > div {
   background-color: rgb(218, 228, 236);
   width: 76.56rem;
   height: 2.5rem;
@@ -193,8 +193,7 @@ hr {
 
 /* making it responsive */
 
-@media screen and (max-width: 400px) {
-
+@media screen and (max-width: 450px) {
   .feat-wrapper {
     text-align: center;
     flex-direction: column;
@@ -214,11 +213,10 @@ hr {
   p {
     width: 350px;
     font-size: 1.18rem;
-    color:  rgb(68, 98, 125);
-    
+    color: rgb(68, 98, 125);
   }
 
-  .heading-wrapper{
+  .heading-wrapper {
     padding: 0px 0px;
   }
 
@@ -230,7 +228,7 @@ hr {
   .responsive-hide {
     display: none;
   }
-  
+
   input {
     display: block;
     width: 100%;
@@ -251,7 +249,7 @@ hr {
     left: 20px;
   }
 
-  .Logo{
+  .Logo {
     display: block;
     margin: 0 auto;
     font-size: 2rem;
@@ -263,11 +261,11 @@ hr {
     border: 1px solid rgb(193, 200, 208);
   }
 
-  .img-wrapper img{
+  .img-wrapper img {
     padding: 20px 0px 0px 10px;
     width: 100%;
   }
-  
+
   .secondary-wrapper {
     padding: 20px;
   }
