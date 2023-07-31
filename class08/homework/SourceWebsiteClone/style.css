@@ -12,6 +12,7 @@
 .flex {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .flex-c {
@@ -29,13 +30,20 @@ body {
   background-color: rgb(243, 250, 255);
 }
 
+.menu {
+  width: 35px;
+  height: 35px;
+  display: none;
+}
+
 .Logo {
   font-weight: 700;
   font-size: 1.1rem;
+  color: rgb(39, 57, 72);
 }
 
 nav {
-  padding: 15px 30px;
+  padding: 1rem 2rem;
   height: 3rem;
 }
 
@@ -45,7 +53,7 @@ ul {
 
 li a {
   font-size: 0.85rem;
-  padding: 0px 20px;
+  padding: 0px 1.2rem;
   text-decoration: none;
   color: rgb(48, 70, 89);
   font-weight: 600;
@@ -58,73 +66,77 @@ li a {
   border: none;
   color: white;
   background-color: rgb(48, 70, 89);
-  width: 70px;
-  height: 30px;
+  width: 4.5rem;
+  height: 1.8rem;
 }
 
 .hero-div {
-  padding: 80px 0px;
+  padding: 5rem 0rem;
 }
 
 .heading-wrapper {
-  width: 800px;
-  padding: 90px 150px 0px 150px;
+  padding: 5.625rem 9.375rem 0rem 9.375rem;
 }
 
 span {
-  color:rgb(78, 89, 99);
+  color:rgb(135, 153, 170);
   font-size: 0.7rem;
   font-weight: 600;
 }
 
 h1 {
-  padding: 10px 0px 20px 0px;
+  padding: 0.625rem 0rem 1.25rem 0rem;
   font-size: 2.3rem;
   letter-spacing: -1px;
   line-height: 1.1;
 }
 
 input{
-  width: 260px;
-  height: 30px;
+  width: 16.25rem;
+  height: 2rem;
   border: none;
   background-color: rgb(225, 233, 240);
 }
 
 input::placeholder {
-  padding: 0px 10px 0 10px;
+  padding: 0rem 0.625rem 0rem 0.625rem;
   font-size: 0.69rem;
   color: rgb(119, 136, 151);
 }
 
-p{
-  padding: 16px 0px;
+p {
+  padding: 1rem 0rem;
   font-size: 0.9rem;
   font-weight: 500;
+  width: 320px;
   color: rgb(105, 119, 132);
 }
 
 .img-wrapper img{
-  width: 690px;
+  width: 100%;
 }
 
 .icons {
-  width: 40px;
-  padding-bottom: 10px ;
+  width: 2.5rem;
+  padding-bottom: 0.625rem;
 }
 
 .feat-wrapper {
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 h3 {
-  font-size:1.2rem;
+  font-size: 1.2rem;
 }
 
 .card {
-  padding: 30px;
-  border-radius: 8px;
+  padding: 1.8rem;
+  border-radius: 0.5rem;
   background-color: rgb(240, 248, 255);
+}
+
+.card p {
+  width: 15.625rem;
 }
 
 .card:hover {
@@ -136,34 +148,138 @@ h3 {
 }
 
 .span-feat{
-  font-size:0.9rem;
+  font-size: 0.9rem;
   font-weight: 700;
+  color: rgb(48, 70, 89);
 }
 
 .arrow-feat {
-  width: 15px;
-  padding-left: 5px;
+  width: 1rem;
+  padding-left: 0.3125rem;
 }
 
-.sect-secondary {
+.section-secondary {
   background-color: white;
+  width:100%;
 }
 
 h2 {
+  width: 25rem;
   font-size: 2.1rem;
 }
 
+h2 + p {
+  width: 37.5rem;
+}
+
 .secondary-wrapper {
-  padding: 100px 0px 4px 150px;
+  padding: 5% 5% 1% 10%;
 }
 
 .light-color{
   color:  rgb(152, 170, 186);
-  padding-bottom: 30px;
+  padding-bottom: 2rem;
 }
 
-.secondary-container > div{
+.footer-container > div{
   background-color: rgb(218, 228, 236);
-  width: 1225px;
-  height: 40px;
+  width: 76.56rem;
+  height: 2.5rem;
+}
+
+hr {
+  display: none;
+}
+
+/* making it responsive */
+
+@media screen and (max-width: 400px) {
+
+  .feat-wrapper {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    padding-top: 20px;
+    font-size: 2.5rem;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+
+  p {
+    width: 350px;
+    font-size: 1.18rem;
+    color:  rgb(68, 98, 125);
+    
+  }
+
+  .heading-wrapper{
+    padding: 0px 0px;
+  }
+
+  .hero-div {
+    justify-content: center;
+    padding: 3rem 0rem;
+  }
+
+  .responsive-hide {
+    display: none;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    height: 40px;
+  }
+
+  .heading-wrapper .btn {
+    display: block;
+    margin-top: 1rem;
+    width: 350px;
+    height: 40px;
+  }
+
+  .menu {
+    display: inline;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+  }
+
+  .Logo{
+    display: block;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+
+  hr {
+    display: block;
+    margin-top: 30px;
+    border: 1px solid rgb(193, 200, 208);
+  }
+
+  .img-wrapper img{
+    padding: 20px 0px 0px 10px;
+    width: 100%;
+  }
+  
+  .secondary-wrapper {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    width: 20rem;
+  }
+
+  h2 + p {
+    width: 350px;
+    font-size: 1.18rem;
+  }
 }
