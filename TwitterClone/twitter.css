@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* color variables---------------------- */
+:root {
+  --blue: #1d9bf0;
+  --gray-border: #2f3336;
+  --gray: #8a8b90;
+}
+
+/* flex classes------------------------ */
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid var(--gray-border);
+  height: 110px;
+}
+
+.logo {
+  display: block;
+  margin: 1rem auto;
+  width: 2rem;
+}
+
+.pfp {
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.tabs-container {
+  border-top: 1px solid #161818;
+}
+
+.tab1, .tab2{
+  padding: 1rem;
+}
+
+.tab1 span {
+  padding: 1rem;
+  border-bottom: 3.5px solid  var(--blue) ;
+}
+
+.tab2 span {
+  color: var(--gray);
+}
+
+/* media queries-------------------------------------  */
+@media (min-width: 1024px) {
+  main {
+    height: 100vh;
+  }
+
+  .feed {
+    border-right: 1px solid var(--gray-border);
+    border-left: 1px solid var(--gray-border);
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 1.3fr;
+  }
+}
