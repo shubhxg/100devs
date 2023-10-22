@@ -3,7 +3,7 @@
 }
 
 title {
-  background: url(images/caaaa.jpg);
+  background: url(../../images/caaaa.jpg);
 }
 
 body {
@@ -80,7 +80,7 @@ p {
     min-height: 400px;
     text-align: center;
     color: #fff;
-    background: #80afe4 url("images/cat22.jpg");
+    background: #80afe4 url("../../images/cat22.jpg");
     background-size:cover;
     padding-bottom: 1.5em;
 }
@@ -94,7 +94,7 @@ p {
 
 .form-container {
   background-size: fill;
-  background:url(images/paws.png);
+  background:url(../../images/paws.png);
 }
 
 .img-main {
